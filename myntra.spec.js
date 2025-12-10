@@ -1,6 +1,6 @@
 import {test,expect}from "@playwright/test"
 
-test("Array_push",async({page})=>
+test("Myntra",async({page})=>
 {
     await page.goto("https://www.myntra.com/");
     const Kids = await page.locator("//a[text()='Kids' and @data-group='kids']").hover();
